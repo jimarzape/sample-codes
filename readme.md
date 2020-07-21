@@ -17,6 +17,7 @@
 
 ## Set Up
 - run composer install
+- copy .env.example to your .env file and edit your database requirements
 - run 'php artisan migrate'
 - run 'php artisan db:seed' [for populating admin user and it's permission]
 - default user 		: admin@sample.com
