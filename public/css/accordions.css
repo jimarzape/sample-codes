@@ -1,0 +1,163 @@
+.pen-title {
+  text-align: center; }
+
+.tabacco {
+  padding-top: 1em;
+  color: #333333;
+  font-family: Georgia, serif;
+  line-height: 1.333em;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.tabacco--tabs .tabacco__nav .nav__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: inline;
+  white-space: nowrap; }
+.tabacco--tabs .tabacco__nav .nav__item {
+  display: inline-block;
+  background-color: #DDDDDD; }
+  .tabacco--tabs .tabacco__nav .nav__item.is-selected .nav__link {
+    background-color: #EFEFEF; }
+.tabacco--tabs .tabacco__nav .nav__link {
+  display: block;
+  text-decoration: none;
+  padding: 1em;
+  color: #333333; }
+  .tabacco--tabs .tabacco__nav .nav__link:hover, .tabacco--tabs .tabacco__nav .nav__link:focus {
+    background-color: #CCCCCC; }
+.tabacco--tabs.fiddy .tabacco__nav, .tabacco--tabs.eighty .tabacco__nav {
+  position: relative;
+  height: 100%; }
+.tabacco--tabs.fiddy .nav__item, .tabacco--tabs.eighty .nav__item {
+  width: 50%;
+  position: absolute;
+  left: 25%;
+  text-align: center; }
+  .tabacco--tabs.fiddy .nav__item.is-selected, .tabacco--tabs.eighty .nav__item.is-selected {
+    z-index: 2; }
+  .tabacco--tabs.fiddy .nav__item.is-prev, .tabacco--tabs.eighty .nav__item.is-prev {
+    z-index: 1;
+    left: 0;
+    text-align: left; }
+  .tabacco--tabs.fiddy .nav__item.is-next, .tabacco--tabs.eighty .nav__item.is-next {
+    z-index: 1;
+    left: auto;
+    right: 0;
+    text-align: right; }
+.tabacco--tabs .tabacco__content {
+  background-color: #f3d9c8;
+  padding: 1em;
+  margin-bottom: 1em; }
+.tabacco--tabs .tabacco__panel {
+  display: none; }
+  .tabacco--tabs .tabacco__panel .panel__title {
+    display: none; }
+.tabacco--tabs h1:after {
+  display: block;
+  float: right;
+  content: attr(data-tabs) "/" attr(data-content) " px"; }
+
+.tabacco--accordion .tabacco__nav, .no-js .tabacco__nav {
+  display: none; }
+.tabacco--accordion .tabacco__panel .panel__title, .no-js .tabacco__panel .panel__title {
+  background-color: #f3d9c8;
+  margin: 0; }
+.tabacco--accordion .tabacco__panel .panel__link, .no-js .tabacco__panel .panel__link 
+{
+  display: block;
+  text-decoration: none;
+  padding: 1em;
+  color: #333333; }
+  .tabacco--accordion .tabacco__panel .panel__link:hover, .no-js .tabacco__panel .panel__link:hover, .tabacco--accordion .tabacco__panel .panel__link:focus, .no-js .tabacco__panel .panel__link:focus {
+    background-color: #f3d9c8; 
+
+
+  }
+.tabacco--accordion .tabacco__panel .panel__body, .no-js .tabacco__panel .panel__body {
+  background-color: #fff7ed;
+  padding: 0 1em;
+  overflow: hidden;
+  height: auto;
+  max-height: 0;
+  margin: 0 0 1px 0;
+  transition: max-height 0.5s cubic-bezier(0, 1, 0, 1); }
+  .tabacco--accordion .tabacco__panel .panel__body.is-open, .no-js .tabacco__panel .panel__body.is-open {
+    max-height: 1000px;
+    overflow: auto;
+    transition: max-height 0.5s cubic-bezier(1, 0, 1, 0); }
+
+.aria-title,
+.toc__link {
+  display: none; }
+
+/* nojs fallback */
+/* inherit the accordion styles */
+.no-js .tabacco__panel .panel__link {
+  cursor: default; }
+  .no-js .tabacco__panel .panel__link:hover, .no-js .tabacco__panel .panel__link:focus {
+    background-color: #DDDDDD; }
+.no-js .tabacco__panel .panel__body {
+  display: block;
+  max-height: 600px;
+  padding-bottom: 1em;
+  margin-bottom: 1em; }
+
+/* options */
+/* show table of contents for long tabaccos */
+.show-toc .tabacco__nav,
+.show-toc .aria-title,
+.show-toc .toc__link {
+  display: block; }
+
+/*# sourceMappingURL=accordions.css.map */
+
+.m-13{
+  margin-top: -13px !important;
+}
+.m-10{
+  margin: 10px;
+}
+.item-status{
+  color: #a25d00;
+}
+.item-titles{
+    font-size: 16px;
+    font-weight: 600;
+     
+}
+.item-descs{
+  text-indent: 30px;
+}
+/*Image and text*/
+.student {
+  margin-left: 15px;
+
+}
+
+.student .photo {
+  background-color: #ccc;
+  border-radius: 100px;
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin-right: 10px;
+}
+
+.student p {
+  position: relative;
+  top: 15px;
+  text-transform: uppercase;
+}
+
+.student p:nth-child(2) {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.student p:nth-child(3) {
+  font-size: 12px;
+  color: #844b03 !important;

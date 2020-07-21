@@ -1,0 +1,16 @@
+/socket/node_modules
+/node_modules
+/public/hot
+/public/storage
+/public/upload/images/*
+/public/upload/banners/*
+/public/upload/videos/*
+/storage/*.key
+/vendor
+.env
+.htaccess
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log

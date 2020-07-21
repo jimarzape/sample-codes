@@ -1,0 +1,16 @@
+cd to this folder
+
+// FOR FIRST TIME INSTALL
+npm install
+
+// RUNING SOCKET
+node socket.js
+
+// MUST USE and INSTAL REDIS
+.env 
+	BROADCAST_DRIVER=redis
+	CACHE_DRIVER=redis
+	REDIS_HOST=127.0.0.1
+	REDIS_PASSWORD=null
+	REDIS_PORT=6379
+	SOCKET_IP='127.0.0.1:3001'
