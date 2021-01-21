@@ -14,12 +14,12 @@
     "express": "^4.16.2",
     "ioredis": "^3.2.2",
     "production": "0.0.2",
-    "socket.io": "^2.0.4"
+    "socket.io": "^2.4.0"
   },
   "dependencies": {
     "express": "^4.16.2",
     "ioredis": "^3.2.2",
     "production": "0.0.2",
-    "socket.io": "^2.0.4"
+    "socket.io": "^2.4.0"
   }
 }
